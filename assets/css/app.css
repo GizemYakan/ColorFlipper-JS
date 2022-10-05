@@ -1,0 +1,59 @@
+:root {
+    --bg-color: #f5f5f5;
+    --dark-text-color: #2b2b2b;
+    --light-text-color: #fff;
+    --light-text-color: #fff;
+    --dark-bg-color: #2b2b2b;
+    --text-blue: #00A0C6;
+}
+nav {
+    background-color: var(--light-text-color) !important;
+}
+nav a {
+    color: var(--dark-text-color);
+}
+nav a:hover {
+    color: var(--text-blue) !important;
+}
+.selection {
+    background-color: var(--dark-bg-color) !important;
+    color: var(--light-text-color) !important;
+}
+.selection a {
+    color: var(--light-text-color) !important;
+}
+.selection a:hover {
+    color: var(--text-blue) !important;
+}
+.btn:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px !important;
+}
+.color-name {
+    background-color: var(--dark-bg-color) !important;
+    color: var(--light-text-color) !important;
+}
+.click-btn {
+    background-color: var(--dark-bg-color) !important;
+    color: var(--light-text-color) !important;
+}
+
+/* BORDER-RADIUS */
+.b-radius-1 {
+    border-radius: 25px !important;
+}
+
+/* FONT-SIZE */
+.fs-24 {
+    font-size: 24px !important;
+}
+.fs-28 {
+    font-size: 28px !important;
+}
+
+/* HEIGHT */
+.h-100vh {
+    height: calc(100vh) !important;
+}
+.h-64  {
+    height: 64px !important;
+}
